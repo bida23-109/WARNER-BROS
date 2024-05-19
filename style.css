@@ -1,5 +1,6 @@
 body{
   background-color: rgb(0, 0, 0);
+  display: flex;
 }
 .logo{
   background-color: rgb(0, 0, 0);
@@ -46,6 +47,7 @@ text-transform: uppercase;
    margin: auto;
     padding: 0px;
   text-align: center;
+    padding: 10px 0;
   }
   .container {
     max-width: 400px;
@@ -88,5 +90,14 @@ text-transform: uppercase;
     border-radius: 4px;
     cursor: pointer;
   }
-
+@media (max-width: 768px) {
+  nav, footer, body}
+  padding: 10px;;
+}
+}
+@media (max-width: 480px) {
+  nav,footer,body {
+    padding: 10px;
+  }
+}
  
