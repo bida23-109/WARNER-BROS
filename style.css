@@ -90,12 +90,16 @@ text-transform: uppercase;
     cursor: pointer;
   }
 @media (max-width: 768px) {
-  nav, footer, body}
-  padding: 10px;;
+  nav ul{
+  flex-direction: column;
+    text-align: center;
+}
+  nav ul li {
+    margin: 10px 0;
 }
 }
 @media (max-width: 480px) {
-  nav,footer,body {
+  nav,footer {
     padding: 10px;
   }
 }
